@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Caixiang (Stephen) Fan"
-  pronouns         : "he/his"  
+  pronouns         : # "he/his"  
   bio              : "Assit. Prof. of Computing Science, Blockchain Researcher"
   location         : "Edmonton, Canada"
   employer         : "The King's University"
@@ -74,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "CaixiangFan"
+  twitter          : "FanCaixiang"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
