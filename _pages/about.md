@@ -13,11 +13,20 @@ His current research interests include blockchain, distributed ledger systems, t
 
 NEWS
 ======
+
+<span class="news-date">[2026-08]</span> It is my pleasure to serve as the **Associate Editor** of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
+
 <span class="news-date">[2026-07]</span> Our paper "Efficient Blockchain Peer-to-Peer Energy Trading based on Automated Market Makers" was presented at IEEE DAPPS 2026, Fukuoka, Japan!
 
 <span class="news-date">[2026-06]</span> Our paper titled "Efficient Blockchain Peer-to-Peer Energy Trading based on Automated Market Makers" was accepted to IEEE DAPPS 2026 conference! Congratulations to Mitchel Justinen!
 
-<span class="news-date">[2026-04]</span> My NSERC Discovery Grant has been approved! Grateful for the support to advance my research.
+<span class="news-date">[2026-04]</span> My **NSERC Discovery Grant** has been approved! Grateful for the support to advance my research.
+
+<span class="news-date">[2025-07]</span> It is my pleasure to serve as the **Publications Chair** of IEEE DAPPS 2026!
+
+<span class="news-date">[2025-06]</span> Our paper "Zero-knowledge Machine Learning Models for Blockchain Peer-to-Peer Energy Trading" was accepted to Elsevier Internet of Things!
+
+<span class="news-date">[2024-08]</span> Excited to join The King's University as an Assistant Professor of Computing Science!
 
 <!-- Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
