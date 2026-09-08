@@ -3,12 +3,52 @@
 .news-date {
   display: inline-block;
   padding: 0.15em 0.45em;
-  margin-right: 0.5em;
+  margin-right: 0.4em;
   border-radius: 4px;
-  background-color: #f0f0f0;
+  background: #f1f3f5;
+  color: #666;
   font-family: monospace;
-  font-size: 0.85em;
+  font-size: 0.82em;
   font-weight: 600;
-  color: #555;
   white-space: nowrap;
+}
+
+/* More News */
+
+.more-news {
+  margin-top: 1.2em;
+}
+
+.more-news summary {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5em 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  list-style: none;
+  transition: all 0.2s ease;
+}
+
+.more-news summary::-webkit-details-marker {
+  display: none;
+}
+
+.more-news summary:hover {
+  transform: translateX(3px);
+}
+
+.more-news summary span {
+  display: inline-block;
+  margin-left: 0.3em;
+  transition: transform 0.2s ease;
+}
+
+.more-news[open] summary span {
+  transform: rotate(90deg);
+}
+
+.more-news > .news-date:first-of-type {
+  margin-top: 1em;
 }
