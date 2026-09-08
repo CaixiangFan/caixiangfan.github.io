@@ -25,13 +25,17 @@ NEWS
 <span class="news-date">[2025-07]</span> It is my pleasure to serve as the **Publications Chair** of IEEE DAPPS 2026!
 
 <details class="more-news">
-  <summary>
-    <span class="show-more">More News →</span>
-    <span class="show-less">Show Less ↑</span>
-  </summary>
+<summary>More News <span>→</span></summary>
 
-  <span class="news-date">[2025-06]</span> Our paper "Zero-knowledge Machine Learning Models for Blockchain Peer-to-Peer Energy Trading" was accepted to Elsevier Internet of Things!
+<div class="news-item">
+  <span class="news-date">[2025-06]</span>
+  Our paper "Zero-knowledge Machine Learning Models for Blockchain Peer-to-Peer Energy Trading" was accepted to Elsevier Internet of Things!
+</div>
 
-  <span class="news-date">[2024-08]</span> Excited to join [The King's University](https://www.kingsu.ca/) as an Assistant Professor of Computing Science!
+<div class="news-item">
+  <span class="news-date">[2024-08]</span>
+  Excited to join <a href="https://www.kingsu.ca/">The King's University</a>
+  as an Assistant Professor of Computing Science!
+</div>
 
 </details>
