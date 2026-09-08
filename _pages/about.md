@@ -34,7 +34,7 @@ NEWS
 
 <div class="news-item">
   <span class="news-date">[2024-08]</span>
-  Excited to join <a href="https://www.kingsu.ca/">The King's University</a>
+  Excited to join <a href="https://www.kingsu.ca/ " target="_blank">The King's University</a>
   as an Assistant Professor of Computing Science!
 </div>
 
