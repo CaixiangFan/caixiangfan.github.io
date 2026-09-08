@@ -52,3 +52,15 @@
 .more-news > .news-date:first-of-type {
   margin-top: 1em;
 }
+
+.more-news .show-less {
+  display: none;
+}
+
+.more-news[open] .show-more {
+  display: none;
+}
+
+.more-news[open] .show-less {
+  display: inline;
+}
