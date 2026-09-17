@@ -15,7 +15,7 @@ NEWS
 ======
 
 <div class="news-item">
-  <span class="news-date">[2026-08]</span> It is my pleasure to serve as the **Associate Editor** of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
+  <span class="news-date">[2026-08]</span> It is my pleasure to serve as the <strong>Associate Editor</strong> of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
 </div>
 
 <div class="news-item">
@@ -27,11 +27,11 @@ NEWS
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2026-04]</span> My **NSERC Discovery Grant** has been approved! Grateful for the support to advance my research.
+  <span class="news-date">[2026-04]</span> My <strong>NSERC Discovery Grant</strong> has been approved! Grateful for the support to advance my research.
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2025-07]</span> It is my pleasure to serve as the **Publications Chair** of IEEE DAPPS 2026!
+  <span class="news-date">[2025-07]</span> It is my pleasure to serve as the <strong>Publications Chair*</strong>of IEEE DAPPS 2026!
 </div>
 
 <details class="more-news">
