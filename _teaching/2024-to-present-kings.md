@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Course & Lab Instructor"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2024-to-present-kings
 venue: "The King's University, Department of Computing Science"
 date: 2024-09-01
 location: "Edmonton, Canada"
 ---
 
-I teach computing science courses at the Department of Computing Science, The King's University since September, 2024.
+I teach computing science courses and labs at the Department of Computing Science, The King's University since September, 2024.
 
 Current Courses
 ======
