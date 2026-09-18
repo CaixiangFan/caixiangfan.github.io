@@ -8,7 +8,7 @@ date: 2024-09-01
 location: "Edmonton, Canada"
 ---
 
-I teach computing science courses and labs at the Department of Computing Science, The King's University since September, 2024.
+I teach [computing science courses](https://www.kingsu.ca/programs/bachelor/computing/course-list) and labs at the Department of Computing Science, The King's University since September, 2024.
 
 Current Courses
 ======
