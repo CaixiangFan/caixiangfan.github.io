@@ -7,46 +7,50 @@ author_profile: true
 
 {% include base_path %}
 
-<style> .pinpon-intro { overflow: auto; } .pinpon-logo { width: 220px; height: auto; float: right; margin: 0 0 20px 30px; } .team-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; margin-top: 30px; } .team-member { min-width: 0; } @media screen and (max-width: 768px) { .team-grid { grid-template-columns: 1fr; } .pinpon-logo { width: 140px; margin-left: 20px; } } </style>
-
 <div class="pinpon-intro">
-<!-- <div style="overflow: auto;"> -->
 
-<img src="{{ base_path }}/images/pinpon-logo.png" alt="PINPON Lab Logo" class="pinpon-logo">
+  <img src="{{ base_path }}/images/pinpon-logo.png"
+       alt="PINPON Lab Logo"
+       class="pinpon-logo">
 
-<p> The <strong>Privacy-Preserving and INtelligent P2P Operations Network (PINPON) Lab</strong> is a research group at 
-<a href="https://www.kingsu.ca/" target="_blank">The King's University</a> focused on developing trustworthy, intelligent, and decentralized computing systems 
-for real-world applications. </p>
+  <p>
+    The <strong>Privacy-Preserving and INtelligent P2P Operations Network (PINPON) Lab</strong>
+    is a research group at
+    <a href="https://www.kingsu.ca/" target="_blank">The King's University</a>
+    focused on developing trustworthy, intelligent, and decentralized computing systems
+    for real-world applications.
+  </p>
 
-<p> Our research brings together <strong>blockchain, artificial intelligence, privacy-preserving computing, and peer-to-peer (P2P) networks</strong>. 
-We are particularly interested in how these technologies can work together to build systems that are <strong>secure, transparent, intelligent, 
-and privacy-preserving</strong>. </p>
+  <p>
+    Our research brings together
+    <strong>blockchain, artificial intelligence, privacy-preserving computing, and peer-to-peer (P2P) networks</strong>.
+    We are particularly interested in how these technologies can work together to build systems that are
+    <strong>secure, transparent, intelligent, and privacy-preserving</strong>.
+  </p>
 
-<p>Our current research includes:<strong> Blockchain and P2P Systems, P2P Energy Trading, Privacy-Preserving and Verifiable AI, 
-zero-knowledge machine learning (ZKML), Tokenization, and Digital Assets</strong>. </p>
+  <p>
+    Our current research includes:
+    <strong>
+      Blockchain and P2P Systems, P2P Energy Trading, Privacy-Preserving and Verifiable AI,
+      Zero-Knowledge Machine Learning (ZKML), Tokenization, and Digital Assets
+    </strong>.
+  </p>
 
-<!-- <ul> 
-  <li> <strong>Blockchain and P2P Systems</strong> — decentralized applications, smart contracts, and peer-to-peer systems. </li>
-  <li> <strong>P2P Energy Trading</strong> — blockchain-based energy markets, automated market makers (AMMs), distributed energy resources, and renewable energy integration. </li> 
-  <li> <strong>Privacy-Preserving AI</strong> — zero-knowledge machine learning (ZKML), federated learning, and privacy-preserving design. </li> 
-  <li> <strong>Intelligent Decentralized Systems</strong> — multi-agent reinforcement learning for decentralized coordination and decision-making. </li> 
-  <li> <strong>Tokenization and Digital Assets</strong> — blockchain-based tokenization of energy, infrastructure, renewable energy certificates, carbon assets, and other real-world assets. </li> 
-</ul> -->
-
-<p> We welcome students and collaborators who are interested in exploring the intersection of <strong>computing, AI, blockchain, privacy, 
-and sustainable technologies</strong>. </p>
+  <p>
+    We welcome students and collaborators who are interested in exploring the intersection of
+    <strong>computing, AI, blockchain, privacy, and sustainable technologies</strong>.
+  </p>
 
 </div>
 
 <h2>Our Team</h2>
-<!-- {% for post in site.team %}
-  {% include archive-single.html %}
-{% endfor %} -->
+
 <div class="team-grid">
-{% for post in site.team %}
-<div class="team-member">
-{% include archive-single.html %}
-</div>
-{% endfor %}
+
+  {% for post in site.team %}
+    <div class="team-member">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
 
 </div>
