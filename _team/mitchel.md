@@ -1,7 +1,7 @@
 ---
 title: "Mitchel Justined"
 position: "Undergraduate Researcher"
-image: "/images/stu_mitchel.png"
+image: "/images/team/mitchel.png"
 website: "https://caixiangfan.github.io/"
 github: "https://github.com/caixiangfan"
 linkedin: "https://www.linkedin.com/in/caixiangfan/"

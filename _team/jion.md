@@ -1,7 +1,7 @@
 ---
 title: "Jion Choi"
 position: "Undergraduate Researcher"
-image: "/images/stu_jion.png"
+image: "/images/team/jion.png"
 website: "https://caixiangfan.github.io/"
 github: "https://github.com/caixiangfan"
 linkedin: "https://www.linkedin.com/in/caixiangfan/"
