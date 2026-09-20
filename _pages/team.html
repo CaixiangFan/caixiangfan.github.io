@@ -8,6 +8,12 @@ author_profile: true
 {% include base_path %}
 
 <style>
+  /*
+   * ============================================================
+   * PINPON LAB INTRO
+   * ============================================================
+   */
+
   .pinpon-intro {
     overflow: auto;
   }
@@ -19,130 +25,517 @@ author_profile: true
     margin: 0 0 20px 30px;
   }
 
-  .team-grid {
+
+  /*
+   * ============================================================
+   * TEAM GRID
+   * ============================================================
+   */
+
+  .pinpon-team-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 40px 30px;
+    gap: 30px;
     margin-top: 30px;
   }
 
-  .team-member {
-    min-width: 0;
-  }
 
   /*
-   * Consistent image frame for every team member.
-   * All images are displayed inside the same-size frame,
-   * regardless of their original dimensions.
+   * ============================================================
+   * TEAM CARD
+   *
+   * Each card:
+   *
+   * ┌──────────────────────────────────────────────┐
+   * │ ┌──────────┐  Name                           │
+   * │ │          │  Position                       │
+   * │ │  PHOTO   │  Description                    │
+   * │ │          │                                 │
+   * │ └──────────┘                         links   │
+   * └──────────────────────────────────────────────┘
+   *
+   * ============================================================
    */
-  .team-member .archive__item-image {
-    width: 100%;
-    height: 280px;
-    overflow: hidden;
-    border-radius: 18px;
-    background: #f5f5f5;
-    border: 1px solid #e5e5e5;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 
+  .pinpon-team-card {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+
+    min-width: 0;
+    min-height: 220px;
+
+    padding: 18px;
+
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    transition:
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
   }
 
-  .team-member .archive__item-image img {
+  .pinpon-team-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.10);
+  }
+
+
+  /*
+   * ============================================================
+   * FIXED IMAGE FRAME
+   *
+   * Every photograph has exactly the same displayed dimensions.
+   * object-fit: cover handles photographs with different
+   * original aspect ratios.
+   * ============================================================
+   */
+
+  .pinpon-team-image {
+    flex: 0 0 145px;
+
+    width: 145px;
+    height: 220px;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+
+    background: #f5f5f5;
+  }
+
+  .pinpon-team-image img {
+    display: block;
+
     width: 100%;
     height: 100%;
+
     object-fit: cover;
     object-position: center;
-    border-radius: 18px;
+
     margin: 0;
+    border-radius: 12px;
   }
+
 
   /*
-   * Keep the member information visually separated
-   * from the image frame.
+   * ============================================================
+   * INFORMATION AREA
+   * ============================================================
    */
-  .team-member .archive__item-title {
-    margin-top: 15px;
-    margin-bottom: 5px;
+
+  .pinpon-team-info {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    min-width: 0;
+
+    margin-left: 18px;
   }
 
-  .team-member .archive__item-excerpt {
-    margin-top: 5px;
+
+  /*
+   * Name
+   */
+
+  .pinpon-team-name {
+    margin: 0 0 3px 0;
+
+    font-size: 1.15rem;
+    line-height: 1.25;
   }
 
-  @media screen and (max-width: 768px) {
-    .team-grid {
+  .pinpon-team-name a {
+    text-decoration: none;
+  }
+
+
+  /*
+   * Position
+   */
+
+  .pinpon-team-position {
+    margin: 0 0 10px 0;
+
+    font-size: 0.88rem;
+    line-height: 1.35;
+
+    color: #777;
+  }
+
+
+  /*
+   * Description
+   */
+
+  .pinpon-team-description {
+    margin: 0;
+
+    font-size: 0.88rem;
+    line-height: 1.5;
+
+    overflow: hidden;
+  }
+
+  .pinpon-team-description p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+
+  /*
+   * ============================================================
+   * SOCIAL / PROFILE LINKS
+   *
+   * Always pushed to the bottom-right.
+   * ============================================================
+   */
+
+  .pinpon-team-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: auto;
+    padding-top: 12px;
+
+    gap: 12px;
+  }
+
+  .pinpon-team-links a {
+    text-decoration: none;
+
+    font-size: 0.95rem;
+  }
+
+  .pinpon-team-links a:hover {
+    text-decoration: none;
+  }
+
+
+  /*
+   * ============================================================
+   * TABLET
+   * ============================================================
+   */
+
+  @media screen and (max-width: 1100px) {
+
+    .pinpon-team-grid {
       grid-template-columns: 1fr;
-      gap: 30px;
     }
 
-    .team-member .archive__item-image {
-      height: 300px;
+  }
+
+
+  /*
+   * ============================================================
+   * MOBILE
+   * ============================================================
+   */
+
+  @media screen and (max-width: 600px) {
+
+    .pinpon-team-card {
+      min-height: 190px;
+      padding: 15px;
+    }
+
+    .pinpon-team-image {
+      flex: 0 0 120px;
+
+      width: 120px;
+      height: 190px;
+    }
+
+    .pinpon-team-info {
+      margin-left: 15px;
+    }
+
+    .pinpon-team-name {
+      font-size: 1.05rem;
+    }
+
+    .pinpon-team-position {
+      font-size: 0.82rem;
+    }
+
+    .pinpon-team-description {
+      font-size: 0.82rem;
+      line-height: 1.4;
     }
 
     .pinpon-logo {
       width: 140px;
       margin-left: 20px;
     }
+
   }
 
-  @media screen and (max-width: 480px) {
-    .team-member .archive__item-image {
-      height: 260px;
-      border-radius: 15px;
+
+  /*
+   * ============================================================
+   * SMALL MOBILE
+   * ============================================================
+   */
+
+  @media screen and (max-width: 420px) {
+
+    .pinpon-team-card {
+      padding: 12px;
     }
 
-    .team-member .archive__item-image img {
-      border-radius: 15px;
+    .pinpon-team-image {
+      flex: 0 0 95px;
+
+      width: 95px;
+      height: 160px;
     }
+
+    .pinpon-team-info {
+      margin-left: 12px;
+    }
+
+    .pinpon-team-name {
+      font-size: 0.98rem;
+    }
+
+    .pinpon-team-position {
+      font-size: 0.78rem;
+      margin-bottom: 6px;
+    }
+
+    .pinpon-team-description {
+      font-size: 0.78rem;
+    }
+
+    .pinpon-team-links {
+      gap: 9px;
+      font-size: 0.85rem;
+    }
+
   }
+
 </style>
+
+
+<!-- ============================================================
+     PINPON LAB INTRODUCTION
+     ============================================================ -->
 
 <div class="pinpon-intro">
 
-  <img src="{{ base_path }}/images/pinpon-logo.png"
-       alt="PINPON Lab Logo"
-       class="pinpon-logo">
+  <img
+    src="{{ base_path }}/images/pinpon-logo.png"
+    alt="PINPON Lab Logo"
+    class="pinpon-logo"
+  >
 
   <p>
-    The <strong>Privacy-Preserving and INtelligent P2P Operations Network (PINPON) Lab</strong>
+    The
+    <strong>
+      Privacy-Preserving and INtelligent P2P Operations Network (PINPON) Lab
+    </strong>
     is a research group at
-    <a href="https://www.kingsu.ca/" target="_blank">The King's University</a>
-    focused on developing trustworthy, intelligent, and decentralized computing systems
-    for real-world applications.
+    <a href="https://www.kingsu.ca/" target="_blank" rel="noopener">
+      The King's University
+    </a>
+    focused on developing trustworthy, intelligent, and decentralized
+    computing systems for real-world applications.
   </p>
 
   <p>
     Our research brings together
-    <strong>blockchain, artificial intelligence, privacy-preserving computing, and peer-to-peer (P2P) networks</strong>.
-    We are particularly interested in how these technologies can work together to build systems that are
-    <strong>secure, transparent, intelligent, and privacy-preserving</strong>.
+    <strong>
+      blockchain, artificial intelligence, privacy-preserving computing,
+      and peer-to-peer (P2P) networks
+    </strong>.
+    We are particularly interested in how these technologies can work
+    together to build systems that are
+    <strong>
+      secure, transparent, intelligent, and privacy-preserving
+    </strong>.
   </p>
 
   <p>
     Our current research includes:
     <strong>
-      Blockchain and P2P Systems, P2P Energy Trading, Privacy-Preserving and Verifiable AI,
-      Zero-Knowledge Machine Learning (ZKML), Tokenization, and Digital Assets.
+      Blockchain and P2P Systems, P2P Energy Trading,
+      Privacy-Preserving and Verifiable AI, Zero-Knowledge Machine Learning
+      (ZKML), Tokenization, and Digital Assets.
     </strong>
   </p>
 
   <p>
-    We welcome students and collaborators who are interested in exploring the intersection of
-    <strong>computing, AI, blockchain, privacy, and sustainable technologies</strong>.
+    We welcome students and collaborators who are interested in exploring
+    the intersection of
+    <strong>
+      computing, AI, blockchain, privacy, and sustainable technologies
+    </strong>.
   </p>
 
 </div>
 
+
+<!-- ============================================================
+     TEAM
+     ============================================================ -->
+
 <h2>Our Team</h2>
 
-<div class="team-grid">
+<div class="pinpon-team-grid">
 
-  {% for post in site.team %}
-    <div class="team-member">
-      {% include archive-single.html %}
-    </div>
+  {% for member in site.team %}
+
+    <article class="pinpon-team-card">
+
+      <!-- Fixed-size photograph -->
+      {% if member.image %}
+
+        <div class="pinpon-team-image">
+
+          <img
+            src="{{ member.image | prepend: base_path }}"
+            alt="{{ member.title }}"
+          >
+
+        </div>
+
+      {% elsif member.header.teaser %}
+
+        <div class="pinpon-team-image">
+
+          <img
+            src="{{ member.header.teaser | prepend: base_path }}"
+            alt="{{ member.title }}"
+          >
+
+        </div>
+
+      {% endif %}
+
+
+      <!-- Member information -->
+      <div class="pinpon-team-info">
+
+        <!-- Name -->
+        <h3 class="pinpon-team-name">
+
+          {% if member.website %}
+
+            <a
+              href="{{ member.website }}"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ member.title }}
+            </a>
+
+          {% else %}
+
+            {{ member.title }}
+
+          {% endif %}
+
+        </h3>
+
+
+        <!-- Position -->
+        {% if member.position %}
+
+          <div class="pinpon-team-position">
+            {{ member.position }}
+          </div>
+
+        {% endif %}
+
+
+        <!-- Description -->
+        {% if member.excerpt %}
+
+          <div class="pinpon-team-description">
+            {{ member.excerpt | markdownify }}
+          </div>
+
+        {% elsif member.content %}
+
+          <div class="pinpon-team-description">
+            {{ member.content }}
+          </div>
+
+        {% endif %}
+
+
+        <!-- Links -->
+        <div class="pinpon-team-links">
+
+          {% if member.website %}
+
+            <a
+              href="{{ member.website }}"
+              target="_blank"
+              rel="noopener"
+              aria-label="{{ member.title }} website"
+              title="Website"
+            >
+              <i class="fas fa-globe"></i>
+            </a>
+
+          {% endif %}
+
+
+          {% if member.github %}
+
+            <a
+              href="{{ member.github }}"
+              target="_blank"
+              rel="noopener"
+              aria-label="{{ member.title }} GitHub"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+          {% endif %}
+
+
+          {% if member.linkedin %}
+
+            <a
+              href="{{ member.linkedin }}"
+              target="_blank"
+              rel="noopener"
+              aria-label="{{ member.title }} LinkedIn"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+          {% endif %}
+
+
+          {% if member.email %}
+
+            <a
+              href="mailto:{{ member.email }}"
+              aria-label="Email {{ member.title }}"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+
+          {% endif %}
+
+        </div>
+
+      </div>
+
+    </article>
+
   {% endfor %}
 
 </div>
