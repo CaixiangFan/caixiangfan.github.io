@@ -1,7 +1,7 @@
 ---
 title: "Daniel Woods"
 position: "Undergraduate Researcher"
-image: "/images/team/stu_daniel.png"
+image: "/images/stu_daniel.png"
 website: "https://caixiangfan.github.io/"
 github: "https://github.com/caixiangfan"
 linkedin: "https://www.linkedin.com/in/caixiangfan/"

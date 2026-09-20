@@ -1,7 +1,7 @@
 ---
 title: "Stephen Fan"
 position: "Principal Investigator"
-image: "/images/team/profile.png"
+image: "/images/profile.png"
 website: "https://caixiangfan.github.io/"
 github: "https://github.com/caixiangfan"
 linkedin: "https://www.linkedin.com/in/caixiangfan/"
