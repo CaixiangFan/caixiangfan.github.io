@@ -14,11 +14,11 @@ His current research interests include blockchain, distributed ledger systems, t
 NEWS
 ======
 <div class="featured-news">
-I am serving as a Topic Editor for a Frontiers in Blockchain paper collection on <a href="https://www.frontiersin.org/research-topics/86024/blockchain-security-and-privacy-in-the-age-of-agentic-ai" target="_blank">Blockchain Security and Privacy in the Age of Agentic AI</a>. Researchers are warmly invited to submit original research contributions.
+<span class="featured-news-date">[2026/27]</span> I am serving as a Topic Editor for a Frontiers in Blockchain paper collection on <a href="https://www.frontiersin.org/research-topics/86024/blockchain-security-and-privacy-in-the-age-of-agentic-ai" target="_blank">Blockchain Security and Privacy in the Age of Agentic AI</a>. Researchers are warmly invited to submit original research contributions.<br>
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2026-09]</span> It is my pleasure to serve as the <strong>Associate Editor</strong> of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
+  <span class="news-date">[2026-09]</span> Mitchel, Jion, and Daniel presented their research through both oral and poster presentations at the annual King’s Summer Research Symposium!
 </div>
 
 <div class="news-item">
