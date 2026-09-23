@@ -18,7 +18,7 @@ NEWS
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2026-09]</span> It is my pleasure to serve as an <strong>Associate Editor</strong> of the <a href="https://link.springer.com/journal/13677/editorial-board" target="_blank">Journal of Cloud Computing</a>!
+  <span class="news-date">[2026-09]</span> It is my pleasure to serve as an <strong>Associate Editor</strong> of <a href="https://link.springer.com/journal/13677/editorial-board" target="_blank">Journal of Cloud Computing</a>!
 </div>
 
 <div class="news-item">
@@ -26,7 +26,7 @@ NEWS
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2026-08]</span> It is my pleasure to serve as an <strong>Associate Editor</strong> of Fontiers in Blockchain!
+  <span class="news-date">[2026-08]</span> It is my pleasure to serve as an <strong>Associate Editor</strong> of <a href="https://www.frontiersin.org/journals/blockchain/editors" target="_blank">Fontiers in Blockchain</a>!
 </div>
 
 <div class="news-item">
