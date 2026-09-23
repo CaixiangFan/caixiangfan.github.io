@@ -13,6 +13,13 @@ His current research interests include blockchain, distributed ledger systems, t
 
 NEWS
 ======
+<div class="featured-news">
+I am serving as a Topic Editor for a Frontiers in Blockchain paper collection on <a href="https://www.frontiersin.org/research-topics/86024/blockchain-security-and-privacy-in-the-age-of-agentic-ai" target="_blank">Blockchain Security and Privacy in the Age of Agentic AI</a>. Researchers are warmly invited to submit original research contributions.
+</div>
+
+<div class="news-item">
+  <span class="news-date">[2026-09]</span> It is my pleasure to serve as the <strong>Associate Editor</strong> of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
+</div>
 
 <div class="news-item">
   <span class="news-date">[2026-08]</span> It is my pleasure to serve as the <strong>Associate Editor</strong> of Fontiers in Blockchain, leading a paper collection about Blockchain Security and Privacy in the Age of Agentic AI!
@@ -31,7 +38,7 @@ NEWS
 </div>
 
 <div class="news-item">
-  <span class="news-date">[2025-07]</span> It is my pleasure to serve as the <strong>Publications Chair*</strong>of IEEE DAPPS 2026!
+  <span class="news-date">[2025-07]</span> It is my pleasure to serve as the <strong>Publications Chair</strong>of <a href="https://cisose.fit.ac.jp/dapps/" _target="_blank">IEEE DAPPS 2026</a>!
 </div>
 
 <details class="more-news">
