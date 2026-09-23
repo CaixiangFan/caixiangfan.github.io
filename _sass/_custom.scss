@@ -26,6 +26,18 @@
   white-space: nowrap;
 }
 
+/* Featured news */
+.featured-news {
+  margin-bottom: 1em;
+}
+
+/* Force a line break after featured news */
+.featured-news br {
+  display: block;
+  content: "";
+  margin-bottom: 0.5em;
+}
+
 /* More News */
 
 .more-news {
