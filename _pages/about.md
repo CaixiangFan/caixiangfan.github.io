@@ -16,6 +16,9 @@ NEWS
 <div class="featured-news">
 <span class="news-date featured-news-date">[🔥]</span> I am serving as a Topic Editor for a Frontiers in Blockchain paper collection on <a href="https://www.frontiersin.org/research-topics/86024/blockchain-security-and-privacy-in-the-age-of-agentic-ai" target="_blank">Blockchain Security and Privacy in the Age of Agentic AI</a>. Researchers are warmly invited to submit original research contributions.<br>
 </div>
+<div class="featured-news">
+<span class="news-date featured-news-date">[🔥]</span> I am serving as a General Chair for <a href="https://ieee-cisose-congress.org/2027/dapps/" target="_blank"> IEEE DAPPS 2027</a> conference to be held June 8-11, 2027, Oxford, UK. We warmly welcome contributions from the global research community.<br>
+</div>
 
 <div class="news-item">
   <span class="news-date">[2026-09]</span> It is my pleasure to serve as an <strong>Associate Editor</strong> of <a href="https://link.springer.com/journal/13677/editorial-board" target="_blank">Journal of Cloud Computing</a>!
